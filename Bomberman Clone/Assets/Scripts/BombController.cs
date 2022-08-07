@@ -109,4 +109,10 @@ public class BombController : MonoBehaviour
             destructibleTiles.SetTile(cell, null);
         }
     }
+
+    public void AddBomb()
+    {
+        bombAmount++;
+        bombsRemaining++;
+    }
 }
